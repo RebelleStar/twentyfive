@@ -1,0 +1,12 @@
+*{
+margin: 50px;
+box-sizing: border-box;
+}
+
+body{
+background-color:#9b6a52; 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+color: #d4a586;
+font-size: 24px;
+}
