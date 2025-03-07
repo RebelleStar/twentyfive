@@ -1,5 +1,8 @@
 body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
   display:grid; 
+  grid-template-columns: auto 1fr auto;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
   "nav nav"
@@ -9,13 +12,18 @@ body {
 }
 
 nav{
-  grid-area: navbar;
+  grid-area: nav;
+
 }
 
 aside {
-  grid-area: sidebar;
+  grid-area: side;
 }
 
 main {
 grid-area:main;
+}
+
+footer{
+  grid-area: footer;
 }
