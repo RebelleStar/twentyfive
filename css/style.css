@@ -1,2 +1,21 @@
+body {
+  display:grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "nav nav"
+  "side main"
+  "side footer"
+  ;
+}
 
+nav{
+  grid-area: navbar;
+}
 
+aside {
+  grid-area: sidebar;
+}
+
+main {
+grid-area:main;
+}
