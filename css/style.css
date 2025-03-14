@@ -31,6 +31,24 @@ nav{
 
 .navabar ul{
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar a{
+  color:#9b6a52; 
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover{
+background-color:#f3ddd3b0;
+}
+
+.navbar li{
+  float:left;
 }
 
 aside {
@@ -40,7 +58,7 @@ aside {
 
 main {
 grid-area:main;
-background-color: #ffeeee;  
+background-color: #9b6a52;  
 
 }
 
