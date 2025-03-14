@@ -29,6 +29,10 @@ nav{
   padding: 1em;
 }
 
+.navabar ul{
+  list-style-type: none;
+}
+
 aside {
   grid-area: side;
   background-color: #dbae98;  
@@ -45,3 +49,4 @@ footer{
   background-color: #ffeeee;  
   padding: 2em;
 }
+
