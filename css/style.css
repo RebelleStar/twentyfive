@@ -21,16 +21,21 @@ body {
 header{
   grid-area: head;
   padding: 1em;
+  outline-color: wheat;
+  outline-style: auto;
+  outline-width: 2em;
 }
 
 nav{
   grid-area: nav;
   background-color: #ffeeee;  
   padding: 1em;
+ 
+
 }
 
-.navabar ul{
-  list-style-type: none;
+.navbar ul{
+  list-style:none;
   padding: 0px;
   margin: 0px;
 }
@@ -54,12 +59,17 @@ background-color:#f3ddd3b0;
 aside {
   grid-area: side;
   background-color: #dbae98;  
+  outline-color: wheat;
+outline-style: auto;
+outline-width: 1em;
   }
 
 main {
 grid-area:main;
 background-color: #9b6a52;  
-
+outline-color: wheat;
+outline-style: auto;
+outline-width: 1em;
 }
 
 footer{
