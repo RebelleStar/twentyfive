@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color:#9b6a52 ;
+  background-color:#2F3C7E ;
+  color: #FBEAEB;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   min-height: 100vh;
   display:grid; 
@@ -19,6 +20,7 @@ body {
 }
 
 header{
+  background-color: #212f6e;
   grid-area: head;
   padding: 1em;
   outline-color: wheat;
@@ -28,9 +30,11 @@ header{
 
 nav{
   grid-area: nav;
-  background-color: #ffeeee;  
+  background-color: #3e4c91;  
   padding: 1em;
- 
+  outline-color: burlywood;
+  outline-style: auto;
+  outline-width: 5em;
 
 }
 
@@ -41,7 +45,7 @@ nav{
 }
 
 .navbar a{
-  color:#9b6a52; 
+  color:#FBEAEB; 
   padding: 15px;
   display: block;
   text-decoration: none;
@@ -49,7 +53,7 @@ nav{
 }
 
 .navbar a:hover{
-background-color:#f3ddd3b0;
+background-color:#edc9e2b0;
 }
 
 .navbar li{
@@ -58,7 +62,7 @@ background-color:#f3ddd3b0;
 
 aside {
   grid-area: side;
-  background-color: #dbae98;  
+  background-color: #6473b3;  
   outline-color: wheat;
 outline-style: auto;
 outline-width: 1em;
@@ -66,7 +70,7 @@ outline-width: 1em;
 
 main {
 grid-area:main;
-background-color: #9b6a52;  
+background-color: #6473b3;  
 outline-color: wheat;
 outline-style: auto;
 outline-width: 1em;
@@ -74,7 +78,10 @@ outline-width: 1em;
 
 footer{
   grid-area: footer; 
-  background-color: #ffeeee;  
+  background-color: #9ca7da;  
   padding: 2em;
+  outline-color: burlywood;
+outline-style: auto;
+outline-width: 5em;
 }
 
