@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color:#2F3C7E ;
+    color: #FBEAEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    display:grid; 
+    grid-template-rows: auto auto 2fr auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "head head"
+    "nav nav"
+    "main main"
+    "footer footer"
+    ;
+    font-family: "Caveat", cursive;
+    
+  }
+  
+  .caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size:1000px;
+  }
+  
+  header{
+    background-color: #212f6e;
+    grid-area: head;
+    padding: 1em;
+    outline-color: wheat;
+    outline-style: auto;
+    outline-width: 2em;
+  }
+  
+  nav{
+    grid-area: nav;
+    background-color: #3e4c91;  
+    padding: 1em;
+    outline-color: burlywood;
+    outline-style: auto;
+    outline-width: 5em;
+  
+  }
+  
+  .navbar ul{
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .navbar a{
+    color:#FBEAEB; 
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .navbar a:hover{
+  background-color:#edc9e2b0;
+  }
+  
+  .navbar li{
+    float:left;
+  }
+  
+  
+  main {
+  grid-area:main;
+  background-color: #6473b3;  
+  outline-color: wheat;
+  outline-style: auto;
+  outline-width: 1em;
+  }
+  
+  footer{
+    grid-area: footer; 
+    background-color: #9ca7da;  
+    padding: 2em;
+    outline-color: burlywood;
+  outline-style: auto;
+  outline-width: 5em;
+  }
+  
+  
+  
+  
