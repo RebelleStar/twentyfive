@@ -94,12 +94,18 @@ outline-style: auto;
 outline-width: 5em;
 }
 
-@media screen and (min-width: 400px) {
-  
+.tomtegif {
+  max-width:300px;
+  max-height:400px;
+  width: 100%;
+  height: 100%;
 }
 
-@media screen and (min-heigth: 400px) {
- main {
 
- }
+@media (max-width: 400px) {
+  .tomtegif {
+    width: 200px;
+    height: 200px
+  }
 }
+
