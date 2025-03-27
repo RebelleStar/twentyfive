@@ -90,4 +90,63 @@
     text-align: center;
   }
   
-  
+  .tipwrapper {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+section{
+border-color: #2196F3;
+border-style: solid;
+width: 200px;
+height:200px;
+border-radius: 20px 10px 10px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+section:hover .ptips {
+font-size: 40px;
+}
+
+.ptips {
+    font-size: 2em;
+    text-shadow: 0 0 7px white;
+}
+
+#s1 {
+background-image: url(../img/abudhabi.webp);
+background-size: cover;
+}
+
+#s2 {
+background-image: url(../img/beirut.jpg);
+background-size: cover;
+}
+
+#s3 {
+background-image: url(../img/newyork.jpg);
+background-size: cover;
+}
+
+#s4 {
+background-image: url(../img/paris.jpg);
+background-size: cover;
+}
+
+.pfoottip {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+
+ .blogimg {
+    width: 40em;
+    height: 25em;
+ }
