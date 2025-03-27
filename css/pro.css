@@ -124,27 +124,21 @@ background-size: cover;
 }
 
 #s2 {
-background-image: url(../img/beirut.jpg);
+background-image: url(../img/markörer.jpg);
 background-size: cover;
 }
 
 #s3 {
-background-image: url(../img/newyork.jpg);
+background-image: url(../img/garn.jpg);
 background-size: cover;
 }
 
 #s4 {
-background-image: url(../img/paris.jpg);
+background-image: url(../img/virknål.jpg);
 background-size: cover;
 }
 
-.pfoottip {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
- }
+
 
  .blogimg {
     width: 40em;
