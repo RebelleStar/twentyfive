@@ -99,7 +99,7 @@
 }
 
 section{
-border-color: #2196F3;
+border-color: #edc9e2b0;
 border-style: solid;
 width: 200px;
 height:200px;
@@ -120,25 +120,29 @@ font-size: 40px;
 
 #s1 {
 background-image: url(../img/virkadkitty.jpg);
-background-size: cover;
+background-size: cover;color: black;
+
 }
 
 #s2 {
 background-image: url(../img/markörer.jpg);
-background-size: cover;
+background-size: cover;color: black;
+
 }
 
 #s3 {
 background-image: url(../img/garn.jpg);
 background-size: cover;
+color: black;
+
 }
 
 #s4 {
 background-image: url(../img/virknål.jpg);
 background-size: cover;
+color: black;
+
 }
-
-
 
  .blogimg {
     width: 40em;
