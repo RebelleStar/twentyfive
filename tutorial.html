@@ -1,65 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/generell.css">
     <link rel="stylesheet" href="css/tut.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <title>Document</title>
-
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clickable Box with List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Box with List</title>
 </head>
 <body>
-    <header> <h2> Roro Crochet 🧶 </h2> </header>
+  <header> 
+    <h1> Roro Crochet 🧶 </h1> 
+  </header>
+  <nav class="navbar">
+      <ul>
+        <li> <a href="index.html"> Home</a></li>
+        <li> <a href="tutorial.html"> Tutorials</a></li>
+        <li> <a href="design.html"> Design it!</a></li>
+        <li> <a href="produkter.html"> produkter</a></li>
+      </ul>
+  </nav>
 
-    <nav class="navbar">
-        <ul>
-    
-          <li> <a href="index.html"> Home</a></li>
-          <li> <a href="tutorial.html"> Tutorials</a></li>
-          <li> <a href="design.html"> Design it!</a></li>
-          <li> <a href="produkter.html"> produkter</a></li>
-    
-        </ul>
-    
-      </nav>
+  <main>
+    <div class="box" onclick="toggleList()">Skapa en enkel cirkel </div>
+    <ul class="list" id="myList">
+      <li>Steg 1: Gör en magisk ring
+        Snurra garnet runt två fingrar och skapa en ring. </li>
+      <li>Steg 2: Virka 6 fasta maskor i ringen
+        Gör 6 fasta maskor (fm) inuti den magiska ringen.</li>
+      <li>Steg 3: Dra åt ringen
+        Dra åt ringen så att hålet i mitten minskar.</li>
+      <li>Steg 4: Avsluta
+        Klipp garnet och fäst trådarna för att avsluta.</li>
+    </ul>
+  </main>
 
+  <footer> 
+    <h2> Gmail: yaygmail@gmail.com </h2>
+    <h2>Telefon:  12345678910 </h2>
+  </footer>
 
-      <main>
-        <!DOCTYPE html>
-<html lang="en">
-
-<body>
-
-  <div class="box" onclick="toggleList()">Skapa en enkel cirkel </div>
-
-<ul class="list" id="myList">
-  <li>Steg 1: Gör en magisk ring
-    Snurra garnet runt två fingrar och skapa en ring. </li>
-  <li>Steg 2: Virka 6 fasta maskor i ringen
-    Gör 6 fasta maskor (fm) inuti den magiska ringen.</li>
-  <li>Steg 3: Dra åt ringen
-    Dra åt ringen så att hålet i mitten minskar.</li>
-  <li>Steg 4: Avsluta
-    Klipp garnet och fäst trådarna för att avsluta.</li>
-</ul>
-
-
-<script src="js/script.js"></script>
-
+  <script src="js/script.js"></script>
 </body>
-</html>
 
-      </main>
+      
     
-      <footer> 
-        <h7> Gmail:</h5> yaygmail@gmail.com
-        <h7> Telefon: </h7>  12345678910
-                </footer>
-
-</body>
-</html>
